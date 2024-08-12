@@ -8,16 +8,6 @@
   font-style: normal;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 700
-
-.radio-canada-big-<uniquifier> {
-  font-family: "Radio Canada Big", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 
 
 *{
@@ -25,4 +15,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* configuração de fontes*/
+body {
+    font-family: "Radio Canada Big", sans-serif; 
+}
+header,
+section h2{
+    font-family: "Oswald", sans-serif; 
+}
+/* configuração header*/
+header{
+    padding: 18px;
+    background-color: #00008b;
+    color: #d3d3d3;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
 
+header nav li{
+    color: #d3d3d3;
+    font-size: 18px;
+    display: inline;
+}
+header nav li a{
+    text-decoration: none;
+    color: #d3d3d3;
+    padding: 8px;
+}
+header h1{
+    font-size: 36px;
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* conficuração section*/
+.banner{
+    height: 400px;
+    padding-left: 24px;
+}
+section .container{
+    align-items: flex-start;
+}
+section{
+    padding: 24px;
+    color: #00008b;
+}
+section h2{
+    margin-bottom: 16px;
+}
+section p{
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+.services img{
+    height: 150px;
+}
