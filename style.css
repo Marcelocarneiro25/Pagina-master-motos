@@ -84,7 +84,6 @@ section h3{
 .contact-method{
     display: flex;
     justify-content: space-between;
-    display: block;
 }
 
 form input,
@@ -98,4 +97,16 @@ form button{
 form textarea{
     resize: none;
     height: 180px;
+}
+form button{
+    background-color: #00008b;
+    color: #d3d3d3;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    background-color: #00008b;
+    color: #d3d3d3;
+    padding: 16px;
 }
